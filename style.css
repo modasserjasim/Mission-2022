@@ -6,9 +6,12 @@ h1{
     font-size: 60px;
     font-weight: 800;
 }
+h2{
+    font-size: 35px;
+}
 .first-section{
     display: flex;
-    padding: 4% 8%;
+    padding: 4% 8% 0 8%;
 }
 .first-section h1{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -25,14 +28,14 @@ h1{
     width: 50%;
 }
 
-.one-half img{
+.person-img img{
     width: 60%;
     float: right;
 }
 
 .universal-btn{
     text-decoration: none;
-    background-image: linear-gradient(rgb(17, 207, 255), #00a6e7);
+    background-image: linear-gradient(#11cfff, #00a6e7);
     padding: 10px 40px;
     border-radius: 5px;
     color: #fff;
@@ -44,9 +47,9 @@ h1{
     font-size: 16px;
 }
 .my-mission{
-    padding: 2% 8%;
+    padding: 0 8%;
 }
-.my-mission h1{
+.my-mission h2{
     text-align: center;
 }
 .three-box{
@@ -57,7 +60,85 @@ h1{
 }
 .box{
     padding: 30px;
-    background-color: rgb(188, 247, 217);
     margin: 15px;
     border-radius: 15px;
+}
+.box1{
+    background-color: #edf5f6;
+}
+
+.box2{
+    background-color: #ffeeee;
+}
+.box3{
+    background-color: #fff4d6;
+}
+.coding-section{
+    display: flex;
+    padding: 4% 8%;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+.develop-left{
+    width: 40%;
+}
+.develop-right{
+    width: 60%;
+}
+.develop-left img{
+    width: 80%;
+}
+.develop-right p{
+    padding-bottom: 30px;;
+}
+
+.training-section{
+    display: flex;
+    padding: 4% 8%;
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right bottom;
+}
+.training-left{
+    width: 60%;
+}
+.training-right{
+    width: 40%;
+}
+.training-right img{
+    width: 80%;
+    float: right;
+}
+.training-left p{
+    padding-bottom: 30px;;
+}
+.course-pricing{
+    padding: 4% 8%;
+}
+.four-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-box{
+    margin:10px;
+    border: 3px solid;
+    border-image: linear-gradient(#fec162, #11cfff) 27;
+    padding: 20px;
+    border-radius: 10px;
+}
+.pricing-box img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+     margin-right: auto;
+}
+.pricing-box h3, .pricing-box p{
+    text-align: center;
+}
+.box-btn{
+    margin: 0 auto;
 }
