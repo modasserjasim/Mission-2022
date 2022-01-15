@@ -29,17 +29,23 @@ h2{
 }
 
 .person-img img{
-    width: 60%;
+    width: 70%;
     float: right;
 }
 
 .universal-btn{
     text-decoration: none;
-    background-image: linear-gradient(#11cfff, #00a6e7);
+    background-image: linear-gradient(#11cfff, #357cff);
     padding: 10px 40px;
     border-radius: 5px;
     color: #fff;
     font-size: 20px;
+    border: 2px solid #11cfff;
+}
+.universal-btn:hover{
+    background-image: linear-gradient(#11cfff00, #357cff00);
+    border: 2px solid #11cfff;
+    color: #11cfff;;
 }
 .first-section p{
     margin: 30px 0;
@@ -62,6 +68,7 @@ h2{
     padding: 30px;
     margin: 15px;
     border-radius: 15px;
+    width: 33%;
 }
 .box1{
     background-color: #edf5f6;
@@ -101,6 +108,7 @@ h2{
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: right bottom;
+    margin-bottom: 80px;
 }
 .training-left{
     width: 60%;
@@ -116,7 +124,10 @@ h2{
     padding-bottom: 30px;;
 }
 .course-pricing{
-    padding: 4% 8%;
+    padding: 0% 8% 8% 8%;
+}
+.course-pricing h2{
+    text-align: center;
 }
 .four-box{
     display: flex;
@@ -124,21 +135,38 @@ h2{
     justify-content: center;
 }
 .pricing-box{
+    width: 25%;
     margin:10px;
     border: 3px solid;
     border-image: linear-gradient(#fec162, #11cfff) 27;
-    padding: 20px;
     border-radius: 10px;
+    box-shadow: 5px 15px 25px rgb(202, 202, 202);
 }
 .pricing-box img{
-    width: 80%;
+    width: 100%;
     display: block;
     margin-left: auto;
      margin-right: auto;
 }
 .pricing-box h3, .pricing-box p{
     text-align: center;
+    padding: 0 20px;
+}
+.pricing-box a{
+    margin: 0 20px 20px 20px;
 }
 .box-btn{
-    margin: 0 auto;
+    mmargin:0 auto;
+    display:block;
+    text-align: center;
+}
+.footer{
+    background: #000;
+    padding: 20px;
+}
+.footer h2, .footer p{
+    text-align: center;
+    color: rgb(218, 218, 218);
+    padding: 0;
+    margin: 0;
 }
